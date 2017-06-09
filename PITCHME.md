@@ -113,18 +113,20 @@ Object-oriented programming (OOP) is a programming language model organized arou
 6. Encapsulation.
 7. Polymorphism.
 8. Data abstraction.
+
+---
 ```python
 class pet()
 	number_of_legs = 0
 	
-	def sleep(self):
-		print "zzzzzzzzzzzzzzzzzzz"
+	def hiss(self):
+		print "sssssssssssssssssssssssssssssss"
 		
 	def count_legs(self):
 		print "I have %s Legs " % self.number_of_legs
-dog = pet()
-dog.sleep()
-dog.number_of_legs = 4
+snake = friend()
+snake.hiss()
+snake.number_of_legs = 0
 fish = pet()
 fish.number_of_legs = 0
 fish.count_legs()
