@@ -2,17 +2,17 @@ class pet:
     number_of_legs = 0
 
     def sleep(self):
-        print "zzzzz"
+        print "flash"
     def count_legs(self):
         print "doug have %s legs. " % self.number_of_legs
 class dog(pet):
    def bark(self):
-       print "woof"
+       print "big dogs don't bark"
 
 doug = dog()
 doug = pet()
 
-doug.sleep()
+doug.run()
 doug.number_of_legs = 4
 doug.count_legs()
 
