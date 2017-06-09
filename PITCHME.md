@@ -61,11 +61,12 @@ print(total)
 ```
 <br>
 ---
+
 #### Challenge 2
-<br>
+
 Can you make a one line Python statement that uses both sum and range to print the sum of the numbers 1
 through 10?
-<br>
+
 
 ```python
 print sum (range (1,10))
