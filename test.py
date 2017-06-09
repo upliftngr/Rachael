@@ -1,7 +1,7 @@
 class pet:
     number_of_legs = 0
 
-    def sleep(self):
+    def run(self):
         print "flash"
     def count_legs(self):
         print "doug have %s legs. " % self.number_of_legs
