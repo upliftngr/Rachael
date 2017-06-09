@@ -4,28 +4,29 @@
 <br>
 <span style="color:cyan">Summary</span>
 <br>
-<span style="color:peach">on</span>
+<span style="color:peac">on</span>
 <br>
-<span style="color:white">Andela Homestudy Curriculum</span>
+<span style="color:cyan">Andela Homestudy Curriculum</span>
 
 ---
 
 ### Module 1
 <br>
-<span style="color:white">Introduction to Computer Science</span>
+<span style="color:cyan">Introduction to Computer Science</span>
 <br>
 Computer science is the study of the theory, experimentation, and engineering that form the basis for the design and use of computers.
 Computer Science is the study of problems, problem-solving, and the solutions that preceed.
 <br>
+---
 A computer scientist’s goal is to develop an algorithms, which are step-by-
 step list of instructions for solving any instance of the problem that might arise.
-
+<br>
 ---
 
 
 ### Module 2
 <br>
-<span style="color:white; font-size:0.6em;">Introduction to Programming</span>
+<span style="color:cyan"; font-size:0.6em;">Introduction to Programming</span>
 <br>
 Programming is the process of taking an algorithm and encoding it into a notation, a programming
 language, so that it can be executed by a computer.
@@ -102,6 +103,8 @@ print("Not turning at all")
 <span style="color:white; font-size:0.6em;">Object Oriented Programming (OOP)</span>
 
 Object-oriented programming (OOP) is a programming language model organized around objects rather than "actions" and data rather than logic. Historically, a program has been viewed as a logical procedure that takes input data, processes it, and produces output data.
+
+---
 1. Class/object/instance(abstract classes, parent class).
 2. Methods(setter, getter).
 3. Constructors and destructors.
