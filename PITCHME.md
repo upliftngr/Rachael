@@ -12,7 +12,7 @@
 
 ### Module 1
 <br>
-<span style="color:white">introduction to Computer Science</span>
+<span style="color:white">Introduction to Computer Science</span>
 <br>
 Computer science is the study of the theory, experimentation, and engineering that form the basis for the design and use of computers.
 Computer Science is the study of problems, problem-solving, and the solutions that preceed.
@@ -74,6 +74,7 @@ print sum (range (1,10))
 ---
 
 #### Functions
+Function is a segment that groups a number of program statements to perform specific task.
 <br>
 ```python
 def say_hello_to(name):
@@ -82,8 +83,9 @@ say_hello_to("Miranda")
 say_hello_to("Fred")
 ```
 ---
-#### Conditional
+#### Conditional Statements.
 <br>
+	In computer science, conditional statements, conditional expressions and conditional constructs are features of a programming language, which perform different computations or actions depending on whether a programmer-specified boolean condition evaluates to true or false.
 ```python
 angle = 5
 if angle > 0:
@@ -97,8 +99,16 @@ print("Not turning at all")
 ---
 #### Module 3
 <span style="color:white; font-size:0.6em;">Object Oriented Programming (OOP)</span>
-**class**
 
+Object-oriented programming (OOP) is a programming language model organized around objects rather than "actions" and data rather than logic. Historically, a program has been viewed as a logical procedure that takes input data, processes it, and produces output data.
+1. Class/object/instance(abstract classes, parent class).
+2. Methods(setter, getter).
+3. Constructors and destructors.
+4. Instantiation.
+5. Initializing.
+6. Encapsulation.
+7. Polymorphism.
+8. Data abstraction.
 ```python
 class pet()
 	number_of_legs = 0
@@ -116,8 +126,4 @@ fish.number_of_legs = 0
 fish.count_legs()
 ---
 
-
-####Module 4
-<span style="color:brown; font-size:0.6em;">Object Oriented Programming (OOP)</span>
-**class**
 
