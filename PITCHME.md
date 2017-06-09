@@ -1,34 +1,44 @@
 
 
-#### Module 1
+## YAHYA ZUBAYR
 <br>
-<span style="color:gray">introduction to computer science</span>
+<span style="color:brown">Summary</span>
 <br>
-Computer science is the study of problems, problem-solving, and the solutions that come out of the
-problem-solving process.
+<span style="color:brown">on</span>
 <br>
-A computer scientist’s goal is to develop an algorithm, a stepby-
-step list of instructions for solving any instance of the problem that might arise.
-
+<span style="color:brown">Andela Homestudy Curriculum</span>
 
 ---
 
-#### Module 2
+### Module 1
 <br>
-<span style="color:gray; font-size:0.6em;">Introduction to Programming</span>
+<span style="color:brown">introduction to Computer Science</span>
+<br>
+Computer Science is the study of problems, problem-solving, and the solutions that preceed.
+<br>
+A computer scientistâ€™s goal is to develop an algorithms, which are stepby-
+step list of instructions for solving any instance of the problem that might arise.
+
+---
+
+
+### Module 2
+<br>
+<span style="color:brown; font-size:0.6em;">Introduction to Programming</span>
 <br>
 Programming is the process of taking an algorithm and encoding it into a notation, a programming
 language, so that it can be executed by a computer.
 
-#Loops
+####Loops
 ```python
 for i in 2, 4, 6, 8
 print (i)
 ```
-#Challenge
+---
+####Challenge 1
 Can you make a range equivalent to [2, 4, 6, 8]
 <br>
-``python
+```python
 numbers = range(1,10)
 even = []
 for i in numbers:
@@ -36,40 +46,44 @@ for i in numbers:
     if i%2 ==0:
         even.append(i)
 print (even)
-``
+```
 
 ---
-#Variable
+####Variable
 <br>
 variable can be used to manipulate values inside code.
-``python
+```python
 total = 0
 for i in 1, 3, 7:
 total = total + i
 print(total)
-``
+```
 <br>
-#Challenge
+---
+####Challenge 2
 <br>
 Can you make a one line Python statement that uses both sum and range to print the sum of the numbers 1
 through 10?
 <br>
 
-``python
+```python
 print sum (range (1,10))
+```
 <br>
+---
 
-#Functions
+####Functions
 <br>
-``python
+```python
 def say_hello_to(name):
 	print("Hello " + name)
 say_hello_to("Miranda")
 say_hello_to("Fred")
-``
-#Conditional
+```
+---
+####Conditional
 <br>
-``python
+```python
 angle = 5
 if angle > 0:
 print("Turning clockwise")
@@ -77,16 +91,32 @@ elif angle < 0:
 print("Turning anticlockwise")
 else:
 print("Not turning at all")
-``
+```
 
 ---
-###Module 3
-<span style="color:gray; font-size:0.6em;">Object Oriented Programming</span>
+####Module 3
+<span style="color:brown; font-size:0.6em;">Object Oriented Programming (OOP)</span>
 **class**
 
-``python
+```python
 class pet()
-#created a class named pet
 	number_of_legs = 0
+	
+	def sleep(self):
+		print "zzzzzzzzzzzzzzzzzzz"
+		
+	def count_legs(self):
+		print "I have %s Legs " % self.number_of_legs
+dog = pet()
+dog.sleep()
+dog.number_of_legs = 4
+fish = pet()
+fish.number_of_legs = 0
+fish.count_legs()
 ---
+
+
+####Module 4
+<span style="color:brown; font-size:0.6em;">Object Oriented Programming (OOP)</span>
+**class**
 
