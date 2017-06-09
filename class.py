@@ -1,9 +1,9 @@
 class Animal:
     number_of_legs = 0
 
-def sleep (self):
-    print "zzzz"
+def run (self):
+    print "flash"
 
 dog = Animal()
-dog.sleep()
+dog.flash()
     
